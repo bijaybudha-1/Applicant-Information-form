@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.user-details-container {
+    max-width: 1400px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    margin: 50px auto;
+}
+
+.user-content h2 {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #a5b5e6;
+}
+
+.user-details {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+} 
+
+
+.user-content input {
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+}
+.user-content input:focus {
+    outline: none; 
+}
+
+.user-details .lastName {
+    width: 550px;
+}
+
+.user-details .firstName {
+    width: 300px;
+    border-left: 2px solid black;
+}
+
+.user-details .mi {
+    width: 200px;
+    border-left: 2px solid black;
+}
+
+.user-details .datebirth {
+    width: 300px;
+    border-left: 2px solid black;
+}
+
+/* User Address Section */
+
+.user-address, .user-city, .user-phone{
+    border-bottom: 2px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-address .streetAddress {
+    width: 1050px;
+}
+.user-address .apartment {
+    width: 300px;
+    border-left: 2px solid black;
+}
+
+/* User City, State, Zip Section */
+
+.user-city .city {
+    width: 550px;
+}
+.user-city .state {
+    width: 300px;
+    border-left: 2px solid black;
+}
+.user-city .zip {
+    width: 500px;
+    border-left: 2px solid black;
+}
+
+.user-phone .phone {
+    width: 1050px;
+}
+.user-phone .email {
+    width: 300px;
+    border-left: 2px solid black;
+}
+
+/* Social Security No. */
+
+.social-security-no {
+    border-bottom: 2px solid black;
+}
+
+.social-security-content {
+    position: relative;
+}
+
+.social-security-content input {
+    width: 100%;
+    padding: 20px;
+}
+
+.social-security-content span {
+    position: absolute;
+    left: 500px;
+    color: red;
+    top: 30px;
+}
+.social-security-no span::before {
+    content: "*";
+    margin-right: 5px;
+}
+
+/* Are you Citizen or not Section */
+
+.citizen-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    gap: 200px;
+}
+
+.citizen-section span{
+    margin-right: 30px;
+}
+
+.citizen-section input, .citizen-section label {
+    margin-right: 15px;
+}
+
+.february-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    gap: 200px;
+}
+
+.february-section span{
+    margin-right: 30px;
+}
+
+.february-section input, .february-section label {
+    margin-right: 15px;
+}
+
+/* Education Section */
+
+.user-content {
+    border-bottom: 2px solid black;
+}
+.user-data-section .schoolname {
+    width: 100%;
+}
+
+.education-content .from-address {
+    display: flex;
+}
+
+/* From To Degree Sections */
+
+.from-address .from {
+    width: 400px;
+}
+
+.from-address .to {
+    width: 400px;
+}
+
+.from-address .address {
+    width: 590px;
+    border-left: 2px solid black;
+}
+
+/* City Degree Section */
+
+.city-degree {
+    display: flex;
+    align-items: center;
+}
+
+
+.user-data-section .city {
+    border-right: 2px solid black;
+    width: 600px;
+}
+
+.user-data-section .graduare-section {
+    width: 400px;
+    padding-left: 20px;
+}
+
+.user-data-section .graduare-section input {
+    margin-left: 20px;
+}
+
+.user-data-section .degree {
+    border-left: 2px solid black;
+}
+
+.user-data-section .college-technical {
+    width: 1390px;
+}
+
+/* Career/Worktour Section */
+
+.user-data-section .career-worktour {
+    width: 100%;
+}

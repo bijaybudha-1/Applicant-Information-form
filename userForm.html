@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Details Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div class="user-details-container">
+        <div class="details-content">
+          <div class="user-content">
+            <h2>Application Information</h2>
+          </div>
+
+          <!-- User Details Section -->
+          <div class="user-content user-details">
+            <div class="user-data-content">
+              <input
+                type="text"
+                placeholder="Last Name"
+                name="LastName"
+                class="lastName"
+              />
+            </div>
+            <div class="user-content-data">
+              <input
+                type="text"
+                placeholder="First Name"
+                name="firstName"
+                class="firstName"
+              />
+            </div>
+            <div class="user-content-data">
+              <input type="text" placeholder="M.I" name="m.i." class="mi" />
+            </div>
+            <div class="user-content-data">
+              <input
+                type="text"
+                placeholder="Date Birth"
+                name="datebirth"
+                class="datebirth"
+              />
+            </div>
+          </div>
+
+          <!-- User Address Section -->
+          <div class="user-content user-address">
+            <div class="user-data-content">
+              <input
+                type="text"
+                placeholder="Street Address"
+                name="streetAddress"
+                class="streetAddress"
+              />
+            </div>
+            <div class="user-content-data">
+              <input
+                type="text"
+                placeholder="Apartment/Unit"
+                name="apartment"
+                class="apartment"
+              />
+            </div>
+          </div>
+
+          <!-- User City, State, Zip Section -->
+          <div class="user-content user-city">
+            <div class="user-data-content">
+              <input type="text" placeholder="City" name="city" class="city" />
+            </div>
+            <div class="user-content-data">
+              <input
+                type="text"
+                placeholder="State"
+                name="state"
+                class="state"
+              />
+            </div>
+            <div class="user-content-data">
+              <input type="text" placeholder="ZIP" name="zip" class="zip" />
+            </div>
+          </div>
+
+          <!-- Phone and E-mail Address Section -->
+          <div class="user-content user-phone">
+            <div class="user-data-content">
+              <input
+                type="text"
+                placeholder="Phone"
+                name="phone"
+                class="phone"
+              />
+            </div>
+            <div class="user-content-data">
+              <input
+                type="text"
+                placeholder="E-mail Address"
+                name="email"
+                class="email"
+              />
+            </div>
+          </div>
+
+          <!-- Social Security No. -->
+          <div class="user-content social-security-no">
+            <div class="user-data-content social-security-content">
+              <input
+                type="text"
+                placeholder="Social Security No."
+                name="socialsecurity"
+                class="socialsecurity"
+              />
+              <span
+                >Does not need to be included on this form, but should
+                be....</span
+              >
+            </div>
+          </div>
+
+          <!-- Are You Citizen or not Section -->
+          <div class="user-content citizen-section">
+            <div class="user-data-content">
+              <span>Are you a citizen of the Nepal?</span>
+              <input type="checkbox" name="citizen" id="citizen-yes" value="yes" />
+              <label for="citizen-yes">Yes</label>
+              <input type="checkbox" name="citizen" id="citizen-no" value="no" />
+              <label for="citizen-no">No</label>
+            </div>
+            <div class="user-data-content">
+              <span>If no, are you authorized to work in the Nepal?</span>
+              <input type="checkbox" name="citizen" id="authorized-yes" value="yes" />
+              <label for="authorized-yes">Yes</label>
+              <input type="checkbox" name="citizen" id="authorized-no" value="no" />
+              <label for="authorized-no">No</label>
+            </div>
+          </div>
+
+          <!-- Converted February Section -->
+          <div class="user-content february-section">
+            <div class="user-data-content">
+              <span>Have you ever been converted od a february?</span>
+              <input type="checkbox" name="february" id="yes" value="yes" />
+              <label for="yes">Yes</label>
+              <input type="checkbox" name="citizen" id="no" value="no" />
+              <label for="no">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Table Section -->
+      <div class="user-details-container">   
+        <div class="education-content">
+          <div class="user-content">
+            <h2>Education</h2>
+          </div>
+
+          <div class="user-content school-name-content">
+            <div class="user-data-section">
+              <input
+                type="text"
+                placeholder="High School"
+                name="schoolname"
+                class="schoolname"
+              />
+            </div>
+          </div>
+
+          <!-- from to address Section -->
+
+          <div class="user-content from-address">
+            <div class="user-data-section">
+              <input
+                type="text"
+                placeholder="From"
+                name="from"
+                class="from"
+              />
+            </div>
+            <div class="user-data-section">
+              <input
+                type="text"
+                placeholder="To"
+                name="to"
+                class="to"
+              />
+            </div>
+            <div class="user-data-section">
+              <input
+                type="text"
+                placeholder="Address"
+                name="address"
+                class="address"
+              />
+            </div>
+          </div>
+
+          <!-- City State and Degree section -->
+
+          <div class="user-content city-degree">
+            <div class="user-data-section">
+              <input
+                type="text"
+                placeholder="City"
+                name="city"
+                class="city"
+              />
+            </div>
+            <div class="user-data-section">
+              <div class="user-data-content graduare-section">
+                <span>Did you graduate?</span>
+                <input type="checkbox" name="graduate" id="graduate-yes-1" value="yes" />
+                <label for="graduate-yes-1">Yes</label>
+                <input type="checkbox" name="graduate" id="graduate-no-1" value="no" />
+                <label for="graduate-no-1">No</label>
+              </div>
+            </div>
+            <div class="user-data-section">
+              <input
+                type="text"
+                placeholder="Degree"
+                name="degree"
+                class="degree"
+              />
+            </div>
+          </div>
+
+          <!-- College/Technical Section -->
+          <div class="user-content college-technical-section">
+            <div class="user-data-section">
+              <input
+                type="text"
+                placeholder="College/Technical School"
+                name="college-technical"
+                class="college-technical"
+              />
+            </div>
+        </div>
+
+         <!-- from to address Section -->
+
+         <div class="user-content from-address">
+          <div class="user-data-section">
+            <input
+              type="text"
+              placeholder="From"
+              name="from"
+              class="from"
+            />
+          </div>
+          <div class="user-data-section">
+            <input
+              type="text"
+              placeholder="To"
+              name="to"
+              class="to"
+            />
+          </div>
+          <div class="user-data-section">
+            <input
+              type="text"
+              placeholder="Address"
+              name="address"
+              class="address"
+            />
+          </div>
+        </div>
+
+        <!-- City State and Degree section -->
+
+        <div class="user-content city-degree">
+          <div class="user-data-section">
+            <input
+              type="text"
+              placeholder="City"
+              name="city"
+              class="city"
+            />
+          </div>
+          <div class="user-data-section">
+            <div class="user-data-content graduare-section">
+              <span>Did you graduate?</span>
+              <input type="checkbox" name="graduate" id="graduate-yes-2" value="yes" />
+              <label for="graduate-yes-2">Yes</label>
+              <input type="checkbox" name="graduate" id="graduate-no-2" value="no" />
+              <label for="graduate-no-2">No</label>
+            </div>
+          </div>
+          <div class="user-data-section">
+            <input
+              type="text"
+              placeholder="Degree"
+              name="degree"
+              class="degree"
+            />
+          </div>
+        </div>
+
+        <!-- Career/tourwork Section -->
+        <div class="user-content school-name-content">
+          <div class="user-data-section">
+            <input
+              type="text"
+              placeholder="Career/Worktour"
+              name="schoolname"
+              class="career-worktour"
+            />
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
